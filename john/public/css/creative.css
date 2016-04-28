@@ -71,6 +71,7 @@ p {
 
 .bg-primary {
      background-image: url(../img/sign_wall.png);
+     height: 700px;
 }
 
 .bg-dark {
@@ -493,4 +494,9 @@ img::-moz-selection {
 
 body {
     webkit-tap-highlight-color: #222;
+}
+
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
 }

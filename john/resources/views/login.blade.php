@@ -6,11 +6,15 @@
 
      <header>
         <div class="header-content">
-            <div class="header-content-inner">
+            <div class="header-content-inner btn-group" role="group">
                 <h1>Patient FIles</h1>
                 <hr>
-                <p>Im only one call away , Ill be there to save the day. Superman!</p>
-                <a id="sign_in" href="#about" class="btn btn-primary btn-xl page-scroll">Sign In</a>
+                <p>Transforming the Doctor-Patient experience through cloud-based electronic
+medical records accessible anytime, anywhere.</p>
+                <div>
+                <a id="sign_in" href="#services" class="btn btn-primary btn-xl page-scroll">Get Started</a>
+                  <a id="sign_in" href="#about" class="btn btn-primary btn-xl page-scroll">Sign In</a> 
+                </div>
             </div>
         </div>
     </header>
@@ -20,7 +24,8 @@
         <div class="container" >
             <div class="row" >
                 <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <h2 class="section-heading">Login Your Account</h2>
+                <br><br><br>
+                    <h2 class="section-heading" style="color: black">Login Your Account</h2>
                     <hr class="light">
                     
                     <form role="form" >
@@ -31,11 +36,11 @@
                             <input type="password" style="width: 50%" class="form-control" type="text" placeholder="Password">
                         </div>
                         <div class="form-group">
-                            <button class="btn btn-default btn-xl wow tada">Sign In</button> 
+                            <button  class="btn btn-default btn-xl wow tada">Sign In</button> 
                         </div>
 
                         <div class="form-group">
-                          <span>or   Sign in with   </span><a href="#"><img src="img/withMd.png" width="55px" ></a>
+                          <span style="color: black;font-weight: bold;">or   Sign in with   </span><a href="#"><img src="img/withMd.png" width="55px" ></a>
                         </div>
 
                     </form>
