@@ -26,6 +26,7 @@ hr {
     border-width: 3px;
 }
 
+
 hr.light {
     border-color: #fff;
 }
@@ -500,3 +501,4 @@ body {
 .navbar-default .navbar-toggle .icon-bar {
     background-color: #fff;
 }
+

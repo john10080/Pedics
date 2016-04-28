@@ -1,5 +1,6 @@
 @extends('layouts.mainLayout')
-
+ <link rel="stylesheet" href="css/creative.css">
+  <link rel="stylesheet" href="js/creative.js">
 @include('layouts.headerLayout')
 
 @section('content')
@@ -62,7 +63,7 @@ medical records accessible anytime, anywhere.</p>
         </div>
         <div class="container">
             <div class="row">
-                      <form role="form">
+                      <form role="form" >
                         <div class="form-group" align="center">
                             <input style="width: 50%" class="form-control" type="text" placeholder="Name">
                         </div>
@@ -74,9 +75,11 @@ medical records accessible anytime, anywhere.</p>
                         </div>
                         <div class="form-group" align="center">
                             <input type="password" style="width: 50%" class="form-control" type="text" placeholder="Password">
+                      
                         </div>
                          <div class="form-group" align="center">
                             <input type="password" style="width: 50%" class="form-control" type="text" placeholder="Confirm Password">
+                          
                         </div>
                         <div class="form-group" align="center">
                             <button id="sign_up" style="color: white" class="btn btn-default btn-xl wow tada">Sign Up</button>
@@ -87,7 +90,7 @@ medical records accessible anytime, anywhere.</p>
         </div>
     </section>
 
-
+    <hr id="p_hr2">
 
     <section id="contact">
         <div class="container">
@@ -108,6 +111,8 @@ medical records accessible anytime, anywhere.</p>
             </div>
         </div>
     </section>
+
+
 
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
