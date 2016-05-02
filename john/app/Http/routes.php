@@ -22,4 +22,6 @@ Route::resource('patientRecords','homeController@patientRecords');
 
 Route::resource('logout','homeController@logout');
 
+Route::get('/facebook', 'Auth\FacebookController@toFacebook');
 
+Route::get('/callback', 'Auth\FacebookController@facebookCallback');
