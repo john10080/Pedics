@@ -6,6 +6,8 @@ use Illuminate\Http\Request;
 
 use App\Http\Requests;
 
+use Auth;
+
 class homeController extends Controller
 {
     /**
@@ -15,7 +17,7 @@ class homeController extends Controller
      */
     public function index()
     {
-        return view('pages.homePage');
+        return redirect('facebook');
     }
 
     public function patientRecords()
@@ -28,9 +30,11 @@ class homeController extends Controller
         return redirect('home');
     }
 
-    public function logout()
-    {
-        return redirect('/');
+    public function logout(){
+
+        Auth::logout();
+        return redirect()->route('/');
+
     }
 
 

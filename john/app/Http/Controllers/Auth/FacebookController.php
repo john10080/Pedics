@@ -6,6 +6,14 @@ use Illuminate\Http\Request;
 
 use App\Http\Requests;
 
+use App\Http\Controllers\Controller;
+
+use Socialite;
+
+use Auth;
+
+use App\User;
+
 class FacebookController extends Controller
 {
 
@@ -22,10 +30,8 @@ class FacebookController extends Controller
 	*/
     public function facebookCallback()
     {
-        $user = Socialite::driver('facebook')->user();
+        $money = Socialite::driver('facebook')->user();
 
-        // $user->token;
-
-            return redirect()->intended('home')->with('data',$user);;
+        return view('pages.homePage')->with('data',$money);
     }
 }
